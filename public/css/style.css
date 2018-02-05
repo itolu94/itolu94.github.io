@@ -1,0 +1,34 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+    opacity: 1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+    opacity: 1;
+
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+    opacity: 1;
+
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+    opacity: 1;
+
+}
+
+.bttn-slant{
+    width: 100%;
+}
+.bttn-slant.bttn-primary:before{
+    background: black;
+}
+
+.bttn-slant.bttn-primary:after{
+    background: dimgrey;
+}
+
+.projectTech  p{
+    margin-bottom: 5px !important;
+}
